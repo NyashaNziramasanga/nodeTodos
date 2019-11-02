@@ -12,11 +12,15 @@ const server = http.createServer((req, res) => {
   // const { headers, url, method } = req;
   // console.log(headers, url, method);
 
-  //All specify Content-Type for browser to render
-  res.setHeader('Content-Type', 'application/json');
-  res.setHeader('X-Powered-By', 'Node');
+  // Simple example
   // res.write('<h1>Hello World<h1>');
   // res.end();
+
+  //Returns status code and content type to header
+  //Always specify Content-Type for browser to render
+  // res.setHeader('Content-Type', 'application/json');
+  // res.setHeader('X-Powered-By', 'Node');
+  res.writeHead(200, { 'Content-Type': 'application/json', 'X-Powered-By': 'Node' });
 
   res.end(
     JSON.stringify({
