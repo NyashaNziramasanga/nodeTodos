@@ -1,0 +1,23 @@
+{
+  "name": "nodehttp",
+  "version": "1.0.0",
+  "description": "Learning Http",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NyashaNziramasanga/nodehttp.git"
+  },
+  "author": "Nyasha (Nash)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NyashaNziramasanga/nodehttp/issues"
+  },
+  "homepage": "https://github.com/NyashaNziramasanga/nodehttp#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
