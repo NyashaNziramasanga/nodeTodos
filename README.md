@@ -1,28 +1,35 @@
-# Simple Node server returning Todos
+# :clipboard: Node Todos :clipboard:
 
-Simple server for http
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+A simple node.js server to retrieve a list of todos
 
 ## Prerequisites
 
 Things you need to install
-```
-nodemon
-node
-Postman
-```
+* [nodemon](https://nodemon.io/) - Monitors for any changes on your source code and restarts the server
+* [node.js](https://nodejs.org/en/) - Server side scripting language (Must be installed on your PC/Mac)
+* [Postman](https://www.getpostman.com/) - Collaborative platform for testing APIs
 
 ### Installing
 
 1. Clone Repo
-2. Run the command below in your terminal
+2. Run the command below in your terminal to start the server
 ```
 npm i && npm start
 ```
-3. Server starts on port 5000
+3. Server starts running on port 5000
+4. In [Postman](https://www.getpostman.com/) you can use the following HTTP methods
+
+
+Url
+```
+http://localhost:5000/todos
+```
+
+HTTP Methods
+```
+GET - Get List of all todos
+POST - Add a todo to the list
+```
 
 ## Built With
 
