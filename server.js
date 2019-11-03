@@ -12,6 +12,7 @@ const server = http.createServer((req, res) => {
   const { method, url } = req;
 
   let body = [];
+  req
     .on('data', (chunk) => {
       body.push(chunk);
     })
