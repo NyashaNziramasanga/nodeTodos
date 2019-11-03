@@ -19,6 +19,7 @@ npm i && npm start
 3. Server starts running on port 5000
 4. In [Postman](https://www.getpostman.com/) you can use the following HTTP methods
 
+![postman-screenshot](/postman-screenshot.png)
 
 ### Url
 ```
