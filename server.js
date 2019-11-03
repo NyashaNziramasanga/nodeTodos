@@ -5,6 +5,7 @@ const todos = [
   { id: 1, test: 'Todo One' },
   { id: 2, test: 'Todo Two' },
   { id: 3, test: 'Todo Three' },
+  { id: 4, test: 'Todo Four' },
 ];
 
 // Create a server
