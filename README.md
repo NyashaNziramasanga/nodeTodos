@@ -20,21 +20,13 @@ npm i && npm start
 4. In [Postman](https://www.getpostman.com/) you can use the following HTTP methods
 
 
-Url
+### Url
 ```
 http://localhost:5000/todos
 ```
 
-HTTP Methods
+### HTTP Methods
 ```
 GET - Get List of all todos
 POST - Add a todo to the list
 ```
-
-## Built With
-
-* Node.js
-
-## Acknowledgments
-
-* Traversey media
